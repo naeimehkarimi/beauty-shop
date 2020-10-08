@@ -1,0 +1,87 @@
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: 3em;
+}
+footer a{
+    color: #212529!important;
+}
+.to-top{
+    bottom: 50px;
+    right: 30px;
+    cursor: pointer;
+    transition: opacity 0.2s linear 0s, visibility;
+    opacity: 1;
+}
+
+.to-top-button img{
+    width: 30px;
+}
+footer .container-fluid{
+    background-color: #eee;
+}
+.first-footer-section img{
+    height: 60px;
+    max-width: 100%;
+}
+.social-footer-section{
+    background-color: #f8f8f8;
+    border-top: 1px solid #eee;
+
+}
+.social-footer-section img{
+    height: 32px;
+    max-width: 100%;
+}
+.social-footer-section .aparat img{
+    height: 36px!important;
+}
+
+.links-footer-section .link{
+    font-size: .8rem;
+}
+.links-footer-section .links-heading{
+    font-size: 1rem;
+}
+.footer-images-section img{
+    height: 125px;
+    max-width: 100%;
+}
+.footer-about-text{
+    font-size: .8rem;
+}
+.copy-right span{
+    font-size: .9rem;
+}
+.after-footer-section{
+    font-size: .9rem;
+    background-color:#f8f8f8 ;
+}
+.footer-card{
+    background-color: #eee!important;
+}
+.footer-card-header{
+    position: relative;
+}
+.footer-card-header span{
+    font-size: .9rem;
+}
+.footer-card-header i{
+    left: 20px;
+    position: absolute;
+}
+.footer-card-body{
+    font-size: .8rem;
+}
+.footer-card-body a{
+    color: #212529!important;
+}
+.mob-about{
+    font-size: .8rem;
+    
+}
+.mob-copy-right{
+    text-align: center;
+    font-size: .8rem;
+}

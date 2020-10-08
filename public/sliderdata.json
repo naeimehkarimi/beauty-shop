@@ -1,0 +1,23 @@
+{
+    "sliderimgs": [
+        {
+            "id": 1,
+            "imageUrl": "./img/ps4slider.png"
+          
+        },
+        {
+            "id":2,
+            "imageUrl": "./img/xboxslider.png"
+        }, {
+            "id": 3,
+            "imageUrl": "./img/labtapslider.png"
+        }
+        , {
+            "id": 4,
+            "imageUrl": "./img/xboxslider.png"
+        }
+        
+    
+    ]
+
+}

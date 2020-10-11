@@ -1,6 +1,5 @@
 import { createStore, compose, applyMiddleware } from 'redux';
 import { reducers } from './../reducers/index';
-
 import thunk from 'redux-thunk';
 import { getUser, getProduct } from '../actions/product';
 import { getslider } from '../actions/slider';

@@ -3,7 +3,7 @@
     border-right:1px solid #515151;
 }
 .top-nav-links i { 
-    color: #ef394e;
+    color: #EA2027;
     font-size: 1.5rem;
 }
 
@@ -48,14 +48,14 @@
   
 
 
-    background-color: #ef394e;
+    background-color: #EA2027;
 }
 #main-nav i {
     font-size: 1.2rem;
 }
 .main-nav-list {
 
-    background-color: #ef394e;
+    background-color: #EA2027;
 }
 .main-nav-search-and-button {
     display: none;
@@ -74,7 +74,7 @@
     text-decoration: none;
 }
 .main-nav-list nav ul li a:hover {
-    color: #e91e63;
+    color: #EA2027;
     background-color: #fff;
 }
 .main-nav-list nav ul li,
@@ -145,14 +145,14 @@ color: #fff!important;
     color: #606c76;
 }
 .main-nav-sidebar-body nav ul li a:hover {
-    color: #ef394e;
+    color: #EA2027;
 }
 .main-nav-sidebar-body .main-nav-links a {
     display: block;
     margin-bottom: 1em;
 }
 .main-nav-search-btn {
-    background-color: #ef394e;
+    background-color: #EA2027;
 }
 
 
@@ -178,6 +178,7 @@ button {
 }
 .top-nav-logo img {
     height: 55px;
+    width: 100px;
     cursor: pointer;
 }
 .header-user-link{
@@ -203,7 +204,7 @@ color: #515151!important;
     }
 
     .inner-product-category-nav ul li a {
-        color: #ef394e !important;
+        color: #EA2027 !important;
         padding: 10px 18px !important;
     }
     .main-nav-list ul li:nth-child(2) .product-category-nav:hover  .inner-product-category-nav {
@@ -217,7 +218,7 @@ color: #515151!important;
     }
     .main-nav-bars-btn {
         cursor: pointer;
-        background-color: #ef394e;
+        background-color: #EA2027;
        
     }
  
@@ -238,7 +239,7 @@ color: #515151!important;
         float: right;
         padding: 0;
         background-color: #fff;
-        color: #ef394e;
+        color: #EA2027;
         border: none;
     }
     .mob-categoty-btns i{

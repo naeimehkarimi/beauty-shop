@@ -94,7 +94,7 @@ const Header = () => {
         <Fragment>
             <header>
                 <div className='container-fluid px-0 m-0'>
-                    <div className='top-nav row w-100 px-2 py-3 m-0 d-none  d-sm-flex justify-content-between align-items-center'>
+                    <div className='top-nav row w-100 pl-3 py-3 m-0 d-none  d-sm-flex justify-content-between align-items-center'>
                         <div className='d-flex top-nav-logo'>
                             <img src='./img/logo.jpg' />
                         </div>
@@ -132,7 +132,7 @@ const Header = () => {
                                 </NavLink>
                                     <NavLink className='header-user-link' to='/userinfo'>{user.fullname} </NavLink> 
                                      / 
-                                     <NavLink className='header-user-link' to='/logout'> خروج</NavLink>
+                                    <NavLink className='header-user-link' to='/logout'> خروج</NavLink>
                                 </div>
                             ) : (
                                 <NavLink

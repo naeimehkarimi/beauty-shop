@@ -86,7 +86,7 @@ const LastProducts = () => {
                         data-ride='carousel'
                     >
                         <a
-                            className='btn-floating'
+                            className='btn-floating next-btn'
                             href='#multi-item-example'
                             data-slide='next'
                         >
@@ -372,7 +372,7 @@ const LastProducts = () => {
                             </div>
                         </div>
                         <a
-                            className='btn-floating '
+                            className='btn-floating prev-btn '
                             href='#multi-item-example'
                             data-slide='prev'
                         >

@@ -69,7 +69,7 @@ h4 {
     left: 0;
     right: 0;
     top: 20px;
-    background-color: #e91e63;
+    background-color: #EA2027;
     z-index: -1;
 }
 /* Last Articles */
@@ -209,8 +209,8 @@ h4 {
     padding: 0.25rem 0.8rem;
     color: #fff;
     border-radius: 10px;
-    border: solid 1px #ef394e;
-    background-color: #ef394e;
+    border: solid 1px #EA2027;
+    background-color: #EA2027;
     width: fit-content;
     transition: all 2s ease-in-out;
     transition: all 2s linear;
@@ -236,7 +236,7 @@ h4 {
     
 }
 .add-to-card a:hover button{
-    width: 160px!important;
+    width: 170px!important;
 }
 @media screen and (max-width: 768px) {
     .products {
@@ -255,10 +255,16 @@ h4 {
     height: 85%;
 }
 .carou .btn-floating{
-    padding: .2rem .5rem;
+  
     border-radius: 50%;
     background-color: #fff;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+}
+.next-btn{
+    padding: .4rem .5rem .2rem .7rem;
+}
+.prev-btn{
+    padding: .4rem .7rem .2rem .5rem;
 }
 .last-products{
     padding: 1rem;
@@ -266,13 +272,13 @@ h4 {
 }
 .last-products-section h6 {
     text-align: right;
-    border-bottom: 2px solid#ef394e;
+    border-bottom: 2px solid#EA2027;
     padding: 0.5rem;
     margin: 1rem 0;
 }
 .last-products-section h6 {
     text-align: right;
-    border-bottom: 2px solid#ef394e;
+    border-bottom: 2px solid#EA2027;
     padding: 0.5rem;
     margin: 1rem 0;
 }
@@ -322,11 +328,11 @@ h4 {
 }
 .page-item.active .page-link {
 	color: #fff!important;
-    background-color: #ef394e!important;
-    border-color: #ef394e!important;
+    background-color: #EA2027!important;
+    border-color: #EA2027!important;
 }
 .page-link {
-	color:#ef394e!important; 
+	color:#EA2027!important; 
 }
 .page-item.disabled .page-link {
     color:#6c757d!important;
@@ -406,12 +412,12 @@ td {
 }
 .single-product-add-to-card button {
     float: right;
-    background-color: #ef394e;
+    background-color: #EA2027;
     width: fit-content;
     padding: 0.25rem 0.5rem;
     color: #fff;
     border-radius: 10px;
-    border: solid 1px #ef394e;
+    border: solid 1px #EA2027;
 }
 .single-product-add-to-card i {
     margin-right: 0.5rem;
@@ -419,14 +425,14 @@ td {
 .add-to-card-counter {
     float: right;
     width: fit-content;
-    border: 1px solid #ef394e;
+    border: 1px solid #EA2027;
     padding: 0.25rem 0.5rem;
     border-radius: 10px;
-    border: solid 1px #ef394e;
+    border: solid 1px #EA2027;
     margin-right: 0.5rem;
 }
 .add-to-card-counter span {
-    color: #ef394e;
+    color: #EA2027;
 }
 .add-to-card-counter input {
     border: none;
@@ -468,7 +474,7 @@ td {
 }
 .single-product-tab nav .nav-link.active {
     border: none;
-    border-bottom: 3px solid #ef394e!important;
+    border-bottom: 3px solid #EA2027!important;
 }
 .single-product-tab .tab-content {
     padding: 0.5rem;
@@ -555,7 +561,7 @@ font-size: .9rem;
 }
 .login-register-submit{
     margin-top: 1rem;
-    background-color: #ef394e;
+    background-color: #EA2027;
     float: left;
     color: #fff;
     border: none;

@@ -78,7 +78,7 @@ const Login = ({history}) => {
       <div className=" row w-100 py-5 m-0 user-login-container">
         <div className="col-md-6 px-5 user-login login text-right" >
 
-          <h2>عضو روبان هستید؟</h2>
+          <h2>عضو هستید؟</h2>
           <h3>با استفاده از شماره ایمیل و رمز عبور خود وارد شوید.</h3>
           <form
                                     onSubmit={handleSubmit}
@@ -148,7 +148,7 @@ const Login = ({history}) => {
          
           <h2>خرید اول خود را تجربه می‌کنید؟</h2>
           <h3>برای تکمیل فرایند خرید خود ثبت نام کنید.</h3>
-          <NavLink to="/register">ثبت نام در روبان</NavLink>
+          <NavLink to="/register">ثبت نام در بیوتی شاپ</NavLink>
           <div className="register-message">
 
           <p>

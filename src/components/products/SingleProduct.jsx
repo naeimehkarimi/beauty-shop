@@ -4,10 +4,10 @@ import { Tabs, Tab } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import { getSingleProduct } from '../../actions/singleproduct';
 import { NavLink } from 'react-router-dom';
-//مچ هم یکی ازپراپز های  ریئکت روتر دام هست که  توش پارامز و بعد آیدی تعریف شده و آیدی رو ازش میگیریم
+
 const SingleProduct = ({ match }) => {
     const singleproduct = useSelector((state) => state.singleproduct);
-  
+
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(getSingleProduct(match.params.id));
@@ -16,7 +16,6 @@ const SingleProduct = ({ match }) => {
     return (
         <Fragment>
             <div className='single-product-container'>
-
                 <div className='single-product'>
                     <div className='single-product-img'>
                         <img
@@ -32,8 +31,6 @@ const SingleProduct = ({ match }) => {
                                 <li>تست</li>
                                 <li>تست</li>
                                 <li>تست</li>
-                               
-                               
                             </ul>
                         </div>
                         <div className='price mb-4'>
@@ -90,40 +87,9 @@ const SingleProduct = ({ match }) => {
                 <div className='single-product-tab'>
                     <Tabs defaultActiveKey='home' id='uncontrolled-tab-example'>
                         <Tab eventKey='home' title='معرفی محصول'>
-                            <p>
-                              {singleproduct.description}
-                            </p>
+                            <p>{singleproduct.description}</p>
                         </Tab>
                         <Tab eventKey='profile' title='نظر دهید'>
-                            {/* <table>
-                                <tbody>
-                                    <tr className=''>
-                                        <td>کد محصول</td>
-                                        <td>6260482514967</td>
-                                    </tr>
-                                    <tr className='odd'>
-                                        <td>صادر کننده مجوز</td>
-                                        <td>سازمان غذا و دارو</td>
-                                    </tr>
-                                    <tr className='even'>
-                                        <td>کشور‌ها</td>
-                                        <td>ایران</td>
-                                    </tr>
-                                    <tr className='odd'>
-                                        <td>شرکت‌ها</td>
-                                        <td>سی گل</td>
-                                    </tr>
-                                    <tr className='even'>
-                                        <td>جنسیت</td>
-                                        <td>خانم</td>
-                                    </tr>
-                                    <tr className='odd'>
-                                        <td>کد وزارت بهداشت</td>
-                                        <td>6260482514967</td>
-                                    </tr>
-                                </tbody>
-                            </table> */}
-
                             <form>
                                 <div className='row px-5'>
                                     <div className='col-md-4 col-sm-12 '>

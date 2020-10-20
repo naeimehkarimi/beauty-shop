@@ -54,7 +54,8 @@ const Login = ({history}) => {
                     });
 
                     localStorage.setItem('token', data.token);
-                    dispatch(addUser(decodeToken(data.token).payload.user));
+                    console.log(data.token);
+                    // dispatch(addUser(decodeToken(data.token).payload.user));
                     history.replace('/');
                     reset();
                 }

@@ -15,7 +15,7 @@ axios.interceptors.response.use(null, error => {
             closeOnClick: true
         });
     }
-  //اگر شرط برقرار نبود ریجکتش میکنه و ما اونور کشش میکنیم
+
     return Promise.reject(error);
 });
 

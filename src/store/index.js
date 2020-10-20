@@ -8,11 +8,6 @@ import { getslider } from '../actions/slider';
 export const store = createStore(
     reducers,
     applyMiddleware(thunk)
-    // compose(
-    //     applyMiddleware(thunk, loadingBarMiddleware()),
-    //     window.__REDUX_DEVTOOLS_EXTENSION__ &&
-    //         window.__REDUX_DEVTOOLS_EXTENSION__()
-    // )
 );
 
 store.dispatch(getProduct());
